@@ -30,7 +30,7 @@ public class Main {
     }
 
     public static void printResultToFile(List<Box> finalList) throws IOException {
-        FileWriter fileWriter= new FileWriter(new File("src/com/company/Tests/output.txt"));
+        FileWriter fileWriter = new FileWriter(new File("src/com/company/Tests/output.txt"));
         fileWriter.append((String.valueOf(finalList)));
         fileWriter.close();
     }
